@@ -1,0 +1,18 @@
+﻿@model GeniesCoffeeShop.Models.Users
+@{
+    ViewBag.Title = "Summary";
+}
+
+<h2>Summary</h2>
+<br />
+
+
+Welcome, @Model.FirstName @Model.LastName!
+<br />
+You're number is @Model.PhoneNumber, email is @Model.Email .
+<br />
+You're from @Model.City,@Model.State .
+<br />
+Your favorite coffee roast is @Model.Choice (^_^).
+
+<p><a class="btn btn-default" href="/Home/Order"> Proceed to Order &raquo;</a></p>
